@@ -1,24 +1,49 @@
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import './App.css';
 import InputCounter from './counter';
+import Hooks from './Hooks';
 
-const style = {
-  color: 'white'
-}
+import { Route, Routes, Link} from 'react-router-dom';
+
+import Lab1 from './Components/Lab';
+import Lab2 from './Components/Lab2';
+
 
 function App() {
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar bg="dark" variant="dark" expand="lg" className='text-white'>
         <Container>
           <Navbar.Brand href="#home">Arif Hussain</Navbar.Brand>
         </Container>
+        <h1> <Link to='/Lab1' style={{textDecoration:'none', color:'white'}} >Lab1</Link>  </h1>
+        <h1> Lab2 </h1>
       </Navbar>
 
-      <InputCounter />
+
+    <Routes>
+
+
+      <Route path='/Lab1' element={<Lab1/>} />
+      <Route path='/Lab2' element={<Lab2/>} />
+
+
+    </Routes>
+
+
+
+
+
+
+
+      {/* <InputCounter /> */}
+
+      {/* <Hooks /> */}
+
+
+
+
+
 
     </>
   );

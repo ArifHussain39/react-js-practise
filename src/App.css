@@ -1,0 +1,61 @@
+.Heading{
+    background: #000;
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+    border: 1px solid #000;
+    border-bottom: 5px solid #000;
+    border-top: 5px solid #000;
+    border-left: 5px solid #000;
+    border-right: 5px solid #000;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    margin: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #000;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    margin: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.Heading Button {
+    background: #000;
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #fefefe;
+    border-radius: 10px;
+    border: 1px solid #000;
+    border-bottom: 5px solid #000;
+    border-top: 5px solid #000;
+    border-left: 5px solid #000;
+    border-right: 5px solid #000;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    margin: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #000;
+    
+}
